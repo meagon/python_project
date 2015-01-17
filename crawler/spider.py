@@ -1,4 +1,11 @@
 
+#-*- coding=utf-8 -*-
+import logger
+from  log import logger_service
+import page
+import gevent
+
+
 class spider(object):
 
     global g_workers

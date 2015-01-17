@@ -27,7 +27,6 @@ def load_config( CONFIG):
 
 if __name__ == "__main__":
     config = CONFIG
-#    assert False
 
     CONFIG = load_config(CONFIG)
     print(CONFIG)
